@@ -3,7 +3,12 @@ export DOTBREW="${HOME}/.brew"
 
 update-brew-script () {
 	[[ -f "${DOTBREW}/.brew-make.sh" ]] && ${DOTBREW}/.brew-make.sh > "${DOTBREW}/brew-install.sh"
-	[[ $(whence config) ]] && config add "${DOTBREW}/brew-install.sh" && config commit -m "Updated brew-install.sh automatically" && config push -u origin && echo "\uF124 brew-install.sh file updated and pushed."
+  if [[ $(whence config) ]]; then
+    config add "${DOTBREW}/brew-install.sh" &> /dev/null
+    config commit -m "Updated brew-install.sh automatically" &> /dev/null
+    config push -u origin &> /dev/null
+    echo "\uF124 brew-install.sh file updated and pushed."
+  fi
 }
 
 brew () {

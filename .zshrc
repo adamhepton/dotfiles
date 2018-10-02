@@ -1,6 +1,6 @@
 # Path to your oh-my-zsh installation.
 export ZSH=${HOME}/.oh-my-zsh
-export HOMEBREW_GITHUB_API_TOKEN=2646a2d28d3ddeb5b03b3c9cf1925f465adcbb7c
+export HOMEBREW_GITHUB_API_TOKEN=201c6519d43d27ffa47aaa037d3b94f0e74d986e
 
 ZSH_THEME="powerlevel9k/powerlevel9k"
 POWERLEVEL9K_MODE='nerdfont-complete'

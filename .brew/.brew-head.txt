@@ -1,0 +1,10 @@
+if [ ! -x /usr/local/bin/brew ]; then
+	echo "installing homebrew"
+	/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+else
+	echo "homebrew is installed"
+fi
+
+echo "Updating app lists"
+brew update
+brew upgrade

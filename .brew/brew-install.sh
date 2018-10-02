@@ -57,6 +57,7 @@ brew install unrar
 brew install webp
 brew install wget
 brew install xz
+brew install yarn
 brew install zsh
 brew install zsh-completions
 brew install zsh-syntax-highlighting

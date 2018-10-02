@@ -1,5 +1,7 @@
 #!/bin/zsh
 
+brew update
+
 echo "#!/bin/bash"
 echo "$(cat ${DOTBREW}/.brew-head.txt)"
 

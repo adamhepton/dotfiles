@@ -7,7 +7,7 @@ alias config="git --git-dir=${HOME}/.cfg/ --work-tree=${HOME}"
 
 config-push () {
   for REMOTE in $(config remote); do
-    config push -u "${REMOTE}" &> /dev/null
+    config push -u "${REMOTE}" "$@" &> /dev/null
   done
 }
 

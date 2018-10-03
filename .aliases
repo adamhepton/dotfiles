@@ -5,4 +5,10 @@ alias cat='lolcat -t'
 alias kitten='command cat'
 alias config="git --git-dir=${HOME}/.cfg/ --work-tree=${HOME}"
 
+config-push () {
+  for REMOTE in $(config remote); do
+    config push -u "${REMOTE}" &> /dev/null
+  done
+}
+
 [[ -f "${HOME}/.brew/brew-helpers.sh" ]] && source "${HOME}/.brew/brew-helpers.sh"

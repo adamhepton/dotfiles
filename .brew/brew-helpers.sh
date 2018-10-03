@@ -6,7 +6,7 @@ update-brew-script () {
   if [[ $(whence config) ]]; then
     config add "${DOTBREW}/brew-install.sh" &> /dev/null
     config commit -m "Updated brew-install.sh automatically" &> /dev/null
-    config push -u origin &> /dev/null
+    config-push
     echo "\uF124 brew-install.sh file updated and pushed."
   fi
 }

@@ -30,6 +30,7 @@ brew install exercism
 brew install fontconfig
 brew install freetype
 brew install gd
+brew install gdbm
 brew install gettext
 brew install git
 brew install graphviz
@@ -48,9 +49,11 @@ brew install node
 brew install openssl
 brew install pcre
 brew install pcre2
+brew install python
 brew install readline
 brew install rename
 brew install ruby
+brew install sqlite
 brew install the_silver_searcher
 brew install tig
 brew install unrar

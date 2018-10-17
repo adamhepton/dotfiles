@@ -45,6 +45,7 @@ brew install libtool
 brew install libunistring
 brew install libyaml
 brew install lolcat
+brew install ncurses
 brew install node
 brew install openssl
 brew install pcre
@@ -78,5 +79,4 @@ brew cask install skype
 brew cask install slack
 brew cask install sonos
 brew cask install spotify
-brew cask install virtualbox
 brew cask install visual-studio-code

@@ -24,6 +24,7 @@ brew tap martido/brew-graph
 
 echo "Adding formulae"
 brew install brew-graph
+brew install clojure
 brew install coreutils
 brew install curl
 brew install exercism
@@ -53,6 +54,7 @@ brew install pcre2
 brew install python
 brew install readline
 brew install rename
+brew install rlwrap
 brew install ruby
 brew install sqlite
 brew install the_silver_searcher

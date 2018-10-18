@@ -75,6 +75,7 @@ brew cask install docker
 brew cask install font-firacode-nerd-font
 brew cask install font-iosevka-nerd-font-mono
 brew cask install iterm2-nightly
+brew cask install java
 brew cask install skype
 brew cask install slack
 brew cask install sonos

@@ -12,3 +12,4 @@ config-push () {
 }
 
 [[ -f "${HOME}/.brew/brew-helpers.sh" ]] && source "${HOME}/.brew/brew-helpers.sh"
+alias babycosmos='python3 ~/Dev/cosmos/cli/cli.py go'

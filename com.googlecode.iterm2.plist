@@ -362,7 +362,7 @@
 	<key>NSWindow Frame ProfilesPanel</key>
 	<string>144 4 735 382 0 0 1440 877 </string>
 	<key>NSWindow Frame SUUpdateAlert</key>
-	<string>410 364 620 392 0 0 1440 877 </string>
+	<string>410 382 620 392 0 0 1440 900 </string>
 	<key>NSWindow Frame SessionsPreferences</key>
 	<string>269 139 606 469 0 0 1440 900 </string>
 	<key>NSWindow Frame SharedPreferences</key>
@@ -370,7 +370,7 @@
 	<key>NSWindow Frame com.apple.typography_panel_PragmataPro</key>
 	<string>398 580 260 108 0 0 1440 900 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 3 570 873 0 0 1440 877 </string>
+	<string>6 24 1431 209 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>720 4 570 896 0 0 1440 900 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
@@ -1181,11 +1181,11 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2018-10-01T14:07:13Z</date>
+	<date>2018-10-19T12:01:04Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>ShowFullScreenTabBar</key>
-	<true/>
+	<false/>
 	<key>ToolbeltTools</key>
 	<array>
 		<string>Captured Output</string>
@@ -1199,6 +1199,6 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>3.2.1</string>
+	<string>3.2.3</string>
 </dict>
 </plist>

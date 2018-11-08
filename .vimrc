@@ -86,6 +86,8 @@ set encoding=utf8
 set lbr
 set tw=500
 
+au BufRead,BufNewFile *.svelte setfiletype html
+
 execute pathogen#infect()
 
 " Airline

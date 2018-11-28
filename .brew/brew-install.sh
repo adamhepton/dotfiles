@@ -46,9 +46,11 @@ brew install libtiff
 brew install libtool
 brew install libunistring
 brew install libyaml
+brew install little-cms2
 brew install lolcat
 brew install ncurses
 brew install node
+brew install openjpeg
 brew install openssl
 brew install pcre
 brew install pcre2

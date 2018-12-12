@@ -17,10 +17,9 @@ brew tap homebrew/cask-drivers
 brew tap homebrew/cask-fonts
 brew tap homebrew/cask-versions
 brew tap homebrew/core
-brew tap homebrew/dupes
 brew tap homebrew/services
-brew tap homebrew/versions
 brew tap martido/brew-graph
+brew tap sambadevi/powerlevel9k
 
 echo "Adding formulae"
 brew install brew-graph
@@ -75,14 +74,13 @@ echo "Adding casks"
 brew cask install atom
 brew cask install bettertouchtool
 brew cask install boom
-brew cask install brave
+brew cask install brave-browser
 brew cask install docker
 brew cask install font-firacode-nerd-font
 brew cask install font-iosevka-nerd-font-mono
 brew cask install iterm2-nightly
 brew cask install java
 brew cask install skype
-brew cask install slack
 brew cask install sonos
 brew cask install spotify
 brew cask install visual-studio-code

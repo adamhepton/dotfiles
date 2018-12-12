@@ -53,6 +53,7 @@ brew install openjpeg
 brew install openssl
 brew install pcre
 brew install pcre2
+brew install powerlevel9k
 brew install python
 brew install readline
 brew install rename

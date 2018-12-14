@@ -37,7 +37,6 @@ brew install gron
 brew install icu4c
 brew install imagemagick
 brew install jpeg
-brew install leiningen
 brew install libidn2
 brew install libpng
 brew install libtiff

@@ -79,6 +79,7 @@ brew cask install font-firacode-nerd-font
 brew cask install font-iosevka-nerd-font-mono
 brew cask install iterm2-nightly
 brew cask install java
+brew cask install lego-digital-designer
 brew cask install skype
 brew cask install sonos
 brew cask install spotify

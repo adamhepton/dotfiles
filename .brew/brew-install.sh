@@ -23,7 +23,6 @@ brew tap sambadevi/powerlevel9k
 
 echo "Adding formulae"
 brew install brew-graph
-brew install clojure
 brew install coreutils
 brew install curl
 brew install exercism

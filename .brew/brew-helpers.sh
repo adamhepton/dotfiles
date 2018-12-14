@@ -13,6 +13,7 @@ update-brew-script () {
 
 brew () {
   command brew "$@"
+  doupdate=false
 
 	if [[ ( "$1" == "install" || "$1" == "uninstall" ) && -n "$2" ]]; then
 		doupdate=true

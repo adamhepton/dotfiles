@@ -84,3 +84,4 @@ brew cask install skype
 brew cask install sonos
 brew cask install spotify
 brew cask install visual-studio-code
+brew cask install vivaldi

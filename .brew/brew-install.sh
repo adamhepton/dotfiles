@@ -45,6 +45,7 @@ brew install libunistring
 brew install libyaml
 brew install little-cms2
 brew install lolcat
+brew install mozjpeg
 brew install ncurses
 brew install node
 brew install openjpeg

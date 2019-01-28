@@ -80,7 +80,6 @@ echo "Adding casks"
 brew cask install atom
 brew cask install bettertouchtool
 brew cask install boom
-brew cask install brave-browser
 brew cask install docker
 brew cask install font-firacode-nerd-font
 brew cask install font-iosevka-nerd-font-mono

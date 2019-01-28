@@ -77,7 +77,6 @@ brew install zsh-completions
 brew install zsh-syntax-highlighting
 
 echo "Adding casks"
-brew cask install atom
 brew cask install bettertouchtool
 brew cask install boom
 brew cask install docker

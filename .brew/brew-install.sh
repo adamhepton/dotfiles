@@ -32,12 +32,17 @@ brew install gd
 brew install gdbm
 brew install gettext
 brew install git
+brew install glib
 brew install graphviz
 brew install gron
+brew install gts
 brew install icu4c
 brew install imagemagick
+brew install jasper
 brew install jpeg
+brew install libffi
 brew install libidn2
+brew install libomp
 brew install libpng
 brew install libtiff
 brew install libtool
@@ -47,6 +52,7 @@ brew install little-cms2
 brew install lolcat
 brew install mozjpeg
 brew install ncurses
+brew install netpbm
 brew install node
 brew install openjpeg
 brew install openssl
@@ -81,7 +87,6 @@ brew cask install font-iosevka-nerd-font-mono
 brew cask install hp-easy-start
 brew cask install iterm2-nightly
 brew cask install java
-brew cask install lego-digital-designer
 brew cask install skype
 brew cask install sonos
 brew cask install spotify

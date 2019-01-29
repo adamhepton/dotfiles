@@ -5,17 +5,17 @@ https://developer.atlassian.com/blog/2016/02/best-way-to-store-dotfiles-git-bare
 
 The main ingredients are:
 
-  * Get Git - From https://git-scm.com/download/mac although we will most likely install via Homebrew after that, anyway
+  * Get Git - Will usually get installed from XCode Developer Tools, but we'll likely get a better version from brew
   * Fork this repo - remember to remove any SSH keys you no longer have access to, and add new ones.  If you clone directly from here, you're not going to be able to push any changes you make
 
 To work with an existing Mac (or install on a new Mac):
+  * Download the .setup.sh from your repo
   * Edit .setup.sh to point to your own remote dotfiles repo
   * Run .setup.sh.  This will:
     * Pull down the remote repo and set up the `config` alias so that you can make changes which can be pushed back to the repo;
     * Link any dotfiles and any helper scripts from the repo into ${HOME};
       *CAUTION!* If any dotfiles already exist in ${HOME}, they will be overwritten by the versions in the repo, and the originals moved into `${HOME}/.config-backup"`
-    * (Optionally) install brew taps, formulae and casks based on the list held in the repo;
-    * (Optionally) build the brew install list based on the installed taps, forumulae and casks on the Mac you are running the script on.
+    * Install brew taps, formulae and casks based on the list held in the repo;
  
 ## Autoupdate on change
 

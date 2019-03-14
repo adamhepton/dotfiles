@@ -41,6 +41,7 @@ brew install ilmbase
 brew install imagemagick
 brew install jasper
 brew install jpeg
+brew install jq
 brew install libde265
 brew install libffi
 brew install libheif
@@ -57,6 +58,7 @@ brew install mozjpeg
 brew install ncurses
 brew install netpbm
 brew install node
+brew install oniguruma
 brew install openexr
 brew install openjpeg
 brew install openssl

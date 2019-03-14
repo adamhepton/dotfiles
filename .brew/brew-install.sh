@@ -37,10 +37,13 @@ brew install graphviz
 brew install gron
 brew install gts
 brew install icu4c
+brew install ilmbase
 brew install imagemagick
 brew install jasper
 brew install jpeg
+brew install libde265
 brew install libffi
+brew install libheif
 brew install libidn2
 brew install libomp
 brew install libpng
@@ -54,6 +57,7 @@ brew install mozjpeg
 brew install ncurses
 brew install netpbm
 brew install node
+brew install openexr
 brew install openjpeg
 brew install openssl
 brew install pcre
@@ -70,6 +74,7 @@ brew install tig
 brew install unrar
 brew install webp
 brew install wget
+brew install x265
 brew install xz
 brew install yarn
 brew install zsh
@@ -77,6 +82,7 @@ brew install zsh-completions
 brew install zsh-syntax-highlighting
 
 echo "Adding casks"
+brew cask install android-studio
 brew cask install boom
 brew cask install docker
 brew cask install font-firacode-nerd-font

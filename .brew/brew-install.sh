@@ -70,12 +70,14 @@ brew install readline
 brew install rename
 brew install rlwrap
 brew install ruby
+brew install shared-mime-info
 brew install sqlite
 brew install the_silver_searcher
 brew install tig
 brew install unrar
 brew install webp
 brew install wget
+brew install wine
 brew install x265
 brew install xz
 brew install yarn

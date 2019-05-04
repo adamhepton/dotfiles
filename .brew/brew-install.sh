@@ -94,6 +94,7 @@ brew cask install font-iosevka-nerd-font-mono
 brew cask install hp-easy-start
 brew cask install iterm2-nightly
 brew cask install java
+brew cask install obs
 brew cask install skype
 brew cask install sonos
 brew cask install spotify

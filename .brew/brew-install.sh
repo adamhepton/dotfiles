@@ -88,6 +88,7 @@ brew install zsh-syntax-highlighting
 echo "Adding casks"
 brew cask install android-studio
 brew cask install boom
+brew cask install discord
 brew cask install docker
 brew cask install font-firacode-nerd-font
 brew cask install font-iosevka-nerd-font-mono

@@ -23,7 +23,10 @@ brew tap sambadevi/powerlevel9k
 
 echo "Adding formulae"
 brew install brew-graph
+brew install brotli
+brew install c-ares
 brew install coreutils
+brew install curl-openssl
 brew install exercism
 brew install fontconfig
 brew install freetype
@@ -38,15 +41,22 @@ brew install gts
 brew install icu4c
 brew install ilmbase
 brew install imagemagick
+brew install jansson
 brew install jasper
+brew install jemalloc
 brew install jpeg
 brew install jq
 brew install libde265
+brew install libev
+brew install libevent
 brew install libffi
 brew install libheif
+brew install libidn
 brew install libidn2
+brew install libmetalink
 brew install libomp
 brew install libpng
+brew install libssh2
 brew install libtiff
 brew install libtool
 brew install libunistring
@@ -56,10 +66,12 @@ brew install lolcat
 brew install mozjpeg
 brew install ncurses
 brew install netpbm
+brew install nghttp2
 brew install node
 brew install oniguruma
 brew install openexr
 brew install openjpeg
+brew install openldap
 brew install openssl
 brew install pcre
 brew install pcre2
@@ -68,6 +80,7 @@ brew install python
 brew install readline
 brew install rename
 brew install rlwrap
+brew install rtmpdump
 brew install ruby
 brew install shared-mime-info
 brew install sqlite

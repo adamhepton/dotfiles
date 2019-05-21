@@ -26,7 +26,6 @@ brew install brew-graph
 brew install brotli
 brew install c-ares
 brew install coreutils
-brew install curl-openssl
 brew install exercism
 brew install fontconfig
 brew install freetype

@@ -98,6 +98,7 @@ brew install openexr
 brew install openjpeg
 brew install openldap
 brew install openssl
+brew install openssl@1.1
 brew install opus
 brew install p11-kit
 brew install pcre
@@ -141,6 +142,7 @@ brew cask install discord
 brew cask install docker
 brew cask install font-firacode-nerd-font
 brew cask install font-iosevka-nerd-font-mono
+brew cask install gimp
 brew cask install hp-easy-start
 brew cask install iterm2-nightly
 brew cask install java

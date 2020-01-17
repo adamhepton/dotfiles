@@ -18,6 +18,7 @@ brew tap homebrew/cask-fonts
 brew tap homebrew/cask-versions
 brew tap homebrew/core
 brew tap homebrew/services
+brew tap martido/graph
 brew tap sambadevi/powerlevel9k
 
 echo "Adding formulae"

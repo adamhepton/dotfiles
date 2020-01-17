@@ -32,7 +32,6 @@ brew install curl-openssl
 brew install flac
 brew install fontconfig
 brew install freetype
-brew install frei0r
 brew install fribidi
 brew install gd
 brew install gdbm

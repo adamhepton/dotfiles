@@ -18,12 +18,10 @@ brew tap homebrew/cask-fonts
 brew tap homebrew/cask-versions
 brew tap homebrew/core
 brew tap homebrew/services
-brew tap martido/brew-graph
 brew tap sambadevi/powerlevel9k
 
 echo "Adding formulae"
 brew install aom
-brew install brew-graph
 brew install brotli
 brew install c-ares
 brew install cairo
@@ -81,11 +79,13 @@ brew install libtasn1
 brew install libtiff
 brew install libtool
 brew install libunistring
+brew install libvidstab
 brew install libvorbis
 brew install libvpx
 brew install libyaml
 brew install little-cms2
 brew install lolcat
+brew install lzo
 brew install mozjpeg
 brew install ncurses
 brew install netpbm

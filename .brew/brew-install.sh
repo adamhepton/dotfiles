@@ -29,8 +29,6 @@ brew install cairo
 brew install coreutils
 brew install curl
 brew install curl-openssl
-brew install exercism
-brew install ffmpeg
 brew install flac
 brew install fontconfig
 brew install freetype

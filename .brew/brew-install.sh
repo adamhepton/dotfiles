@@ -85,6 +85,7 @@ brew install little-cms2
 brew install lolcat
 brew install lzo
 brew install mozjpeg
+brew install mysql
 brew install ncurses
 brew install netpbm
 brew install nettle
@@ -103,6 +104,7 @@ brew install pcre
 brew install pcre2
 brew install pixman
 brew install powerlevel9k
+brew install protobuf
 brew install python
 brew install readline
 brew install rename

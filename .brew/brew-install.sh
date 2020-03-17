@@ -45,6 +45,7 @@ brew install graphite2
 brew install graphviz
 brew install gron
 brew install gts
+brew install handbrake
 brew install harfbuzz
 brew install icu4c
 brew install ilmbase

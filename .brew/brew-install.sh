@@ -36,6 +36,7 @@ brew install fribidi
 brew install gd
 brew install gdbm
 brew install gettext
+brew install ghostscript
 brew install giflib
 brew install git
 brew install glib
@@ -101,12 +102,14 @@ brew install openssl
 brew install openssl@1.1
 brew install opus
 brew install p11-kit
+brew install pango
 brew install pcre
 brew install pcre2
 brew install pixman
 brew install powerlevel9k
 brew install protobuf
 brew install python
+brew install python@3.8
 brew install readline
 brew install rename
 brew install rlwrap
@@ -131,7 +134,6 @@ brew install x264
 brew install x265
 brew install xvid
 brew install xz
-brew install yarn
 brew install zsh
 brew install zsh-completions
 brew install zsh-syntax-highlighting

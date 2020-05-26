@@ -154,7 +154,6 @@ brew cask install hp-easy-start
 brew cask install iterm2-nightly
 brew cask install java
 brew cask install keyboard-cleaner
-brew cask install nvidia-geforce-now
 brew cask install obs
 brew cask install sonos
 brew cask install spotify

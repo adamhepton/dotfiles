@@ -29,6 +29,8 @@ brew install cairo
 brew install coreutils
 brew install curl
 brew install curl-openssl
+brew install docbook
+brew install docbook-xsl
 brew install flac
 brew install fontconfig
 brew install freetype
@@ -41,6 +43,7 @@ brew install giflib
 brew install git
 brew install glib
 brew install gmp
+brew install gnu-getopt
 brew install gnutls
 brew install graphite2
 brew install graphviz
@@ -132,6 +135,7 @@ brew install wget
 brew install wine
 brew install x264
 brew install x265
+brew install xmlto
 brew install xvid
 brew install xz
 brew install zsh
@@ -154,7 +158,6 @@ brew cask install keyboard-cleaner
 brew cask install lightworks
 brew cask install nvidia-geforce-now
 brew cask install obs
-brew cask install skype
 brew cask install sonos
 brew cask install spotify
 brew cask install visual-studio-code

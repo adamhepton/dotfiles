@@ -143,7 +143,6 @@ brew install zsh-completions
 brew install zsh-syntax-highlighting
 
 echo "Adding casks"
-brew cask install boom
 brew cask install discord
 brew cask install docker
 brew cask install font-firacode-nerd-font

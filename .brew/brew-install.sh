@@ -144,6 +144,7 @@ brew install zsh-syntax-highlighting
 
 echo "Adding casks"
 brew cask install docker
+brew cask install font-fantasquesansmono-nerd-font
 brew cask install font-firacode-nerd-font
 brew cask install font-iosevka-nerd-font-mono
 brew cask install gimp

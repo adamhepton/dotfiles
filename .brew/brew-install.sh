@@ -157,5 +157,6 @@ brew cask install keyboard-cleaner
 brew cask install obs
 brew cask install sonos
 brew cask install spotify
+brew cask install steelseries-engine
 brew cask install visual-studio-code
 brew cask install zoomus

@@ -150,6 +150,7 @@ brew cask install font-iosevka-nerd-font-mono
 brew cask install gimp
 brew cask install handbrake
 brew cask install hp-easy-start
+brew cask install inkscape
 brew cask install iterm2-nightly
 brew cask install java
 brew cask install keyboard-cleaner

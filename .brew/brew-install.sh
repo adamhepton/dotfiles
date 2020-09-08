@@ -45,6 +45,7 @@ brew install glib
 brew install gmp
 brew install gnu-getopt
 brew install gnutls
+brew install gobject-introspection
 brew install graphite2
 brew install graphviz
 brew install gron
@@ -70,6 +71,7 @@ brew install libffi
 brew install libheif
 brew install libidn
 brew install libidn2
+brew install liblqr
 brew install libmetalink
 brew install libogg
 brew install libomp
@@ -101,7 +103,6 @@ brew install opencore-amr
 brew install openexr
 brew install openjpeg
 brew install openldap
-brew install openssl
 brew install openssl@1.1
 brew install opus
 brew install p11-kit
@@ -109,9 +110,9 @@ brew install pango
 brew install pcre
 brew install pcre2
 brew install pixman
+brew install pkg-config
 brew install powerlevel9k
 brew install protobuf
-brew install python
 brew install python@3.8
 brew install readline
 brew install rename
@@ -141,8 +142,10 @@ brew install xz
 brew install zsh
 brew install zsh-completions
 brew install zsh-syntax-highlighting
+brew install zstd
 
 echo "Adding casks"
+brew cask install amethyst
 brew cask install docker
 brew cask install font-fantasquesansmono-nerd-font
 brew cask install font-firacode-nerd-font

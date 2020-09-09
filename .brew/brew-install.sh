@@ -145,7 +145,6 @@ brew install zsh-syntax-highlighting
 brew install zstd
 
 echo "Adding casks"
-brew cask install amethyst
 brew cask install docker
 brew cask install font-fantasquesansmono-nerd-font
 brew cask install font-firacode-nerd-font

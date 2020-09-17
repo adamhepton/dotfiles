@@ -116,14 +116,12 @@ brew install pkg-config
 brew install powerlevel9k
 brew install protobuf
 brew install python@3.8
-brew install rbenv
 brew install readline
 brew install rename
 brew install rlwrap
 brew install rtmpdump
 brew install rubberband
 brew install ruby
-brew install ruby-build
 brew install sdl2
 brew install shared-mime-info
 brew install snappy

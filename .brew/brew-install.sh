@@ -23,6 +23,7 @@ brew tap sambadevi/powerlevel9k
 
 echo "Adding formulae"
 brew install aom
+brew install autoconf
 brew install brotli
 brew install c-ares
 brew install cairo
@@ -101,6 +102,7 @@ brew install node
 brew install oniguruma
 brew install opencore-amr
 brew install openexr
+brew install openjdk
 brew install openjpeg
 brew install openldap
 brew install openssl@1.1
@@ -114,12 +116,14 @@ brew install pkg-config
 brew install powerlevel9k
 brew install protobuf
 brew install python@3.8
+brew install rbenv
 brew install readline
 brew install rename
 brew install rlwrap
 brew install rtmpdump
 brew install rubberband
 brew install ruby
+brew install ruby-build
 brew install sdl2
 brew install shared-mime-info
 brew install snappy

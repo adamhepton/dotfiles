@@ -12,6 +12,7 @@ brew upgrade
 
 echo "Adding taps"
 brew tap caryll/tap
+brew tap gcenx/wine
 brew tap homebrew/cask
 brew tap homebrew/cask-drivers
 brew tap homebrew/cask-fonts
@@ -24,6 +25,7 @@ brew tap sambadevi/powerlevel9k
 echo "Adding formulae"
 brew install aom
 brew install autoconf
+brew install bdw-gc
 brew install brotli
 brew install c-ares
 brew install cairo
@@ -51,6 +53,7 @@ brew install graphite2
 brew install graphviz
 brew install gron
 brew install gts
+brew install guile
 brew install handbrake
 brew install harfbuzz
 brew install icu4c

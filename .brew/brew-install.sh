@@ -177,5 +177,6 @@ brew install sonos
 brew install spotify
 brew install steelseries-engine
 brew install visual-studio-code
+brew install zoom
 
 echo "Adding casks"

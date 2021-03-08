@@ -40,6 +40,7 @@ brew install freetype
 brew install fribidi
 brew install gd
 brew install gdbm
+brew install gdk-pixbuf
 brew install gettext
 brew install ghostscript
 brew install giflib
@@ -80,6 +81,8 @@ brew install libmetalink
 brew install libogg
 brew install libomp
 brew install libpng
+brew install libpthread-stubs
+brew install librsvg
 brew install libsamplerate
 brew install libsndfile
 brew install libsoxr
@@ -91,11 +94,18 @@ brew install libunistring
 brew install libvidstab
 brew install libvorbis
 brew install libvpx
+brew install libx11
+brew install libxau
+brew install libxcb
+brew install libxdmcp
+brew install libxext
+brew install libxrender
 brew install libyaml
 brew install little-cms2
 brew install lolcat
 brew install lzo
 brew install mozjpeg
+brew install mpdecimal
 brew install mysql
 brew install ncurses
 brew install netpbm
@@ -119,6 +129,7 @@ brew install pkg-config
 brew install powerlevel9k
 brew install protobuf
 brew install python@3.8
+brew install python@3.9
 brew install readline
 brew install rename
 brew install rlwrap
@@ -130,6 +141,7 @@ brew install shared-mime-info
 brew install snappy
 brew install speex
 brew install sqlite
+brew install tcl-tk
 brew install tesseract
 brew install the_silver_searcher
 brew install theora
@@ -142,28 +154,28 @@ brew install wine
 brew install x264
 brew install x265
 brew install xmlto
+brew install xorgproto
 brew install xvid
 brew install xz
 brew install zsh
 brew install zsh-completions
 brew install zsh-syntax-highlighting
 brew install zstd
+brew install docker
+brew install font-fantasquesansmono-nerd-font
+brew install font-firacode-nerd-font
+brew install font-iosevka-nerd-font-mono
+brew install gimp
+brew install handbrake
+brew install hp-easy-start
+brew install inkscape
+brew install iterm2-nightly
+brew install java
+brew install keyboard-cleaner
+brew install obs
+brew install sonos
+brew install spotify
+brew install steelseries-engine
+brew install visual-studio-code
 
 echo "Adding casks"
-brew cask install docker
-brew cask install font-fantasquesansmono-nerd-font
-brew cask install font-firacode-nerd-font
-brew cask install font-iosevka-nerd-font-mono
-brew cask install gimp
-brew cask install handbrake
-brew cask install hp-easy-start
-brew cask install inkscape
-brew cask install iterm2-nightly
-brew cask install java
-brew cask install keyboard-cleaner
-brew cask install obs
-brew cask install sonos
-brew cask install spotify
-brew cask install steelseries-engine
-brew cask install visual-studio-code
-brew cask install zoomus

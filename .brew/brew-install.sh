@@ -138,6 +138,7 @@ brew install rubberband
 brew install ruby
 brew install sdl2
 brew install shared-mime-info
+brew install smartmontools
 brew install snappy
 brew install speex
 brew install sqlite

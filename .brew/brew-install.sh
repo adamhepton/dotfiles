@@ -60,8 +60,10 @@ brew install harfbuzz
 brew install icu4c
 brew install ilmbase
 brew install imagemagick
+brew install imath
 brew install jansson
 brew install jasper
+brew install jbig2dec
 brew install jemalloc
 brew install jpeg
 brew install jq
@@ -91,6 +93,7 @@ brew install libtasn1
 brew install libtiff
 brew install libtool
 brew install libunistring
+brew install libuv
 brew install libvidstab
 brew install libvorbis
 brew install libvpx
@@ -103,7 +106,9 @@ brew install libxrender
 brew install libyaml
 brew install little-cms2
 brew install lolcat
+brew install lz4
 brew install lzo
+brew install m4
 brew install mozjpeg
 brew install mpdecimal
 brew install mysql
@@ -138,6 +143,7 @@ brew install rubberband
 brew install ruby
 brew install sdl2
 brew install shared-mime-info
+brew install six
 brew install smartmontools
 brew install snappy
 brew install speex
@@ -169,7 +175,6 @@ brew install font-iosevka-nerd-font-mono
 brew install gimp
 brew install handbrake
 brew install hp-easy-start
-brew install inkscape
 brew install iterm2-nightly
 brew install java
 brew install keyboard-cleaner

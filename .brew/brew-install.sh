@@ -24,10 +24,13 @@ brew tap sambadevi/powerlevel9k
 
 echo "Adding formulae"
 brew install aom
+brew install apr
+brew install apr-util
 brew install autoconf
 brew install bdw-gc
 brew install brotli
 brew install c-ares
+brew install ca-certificates
 brew install cairo
 brew install coreutils
 brew install curl
@@ -105,6 +108,7 @@ brew install libxext
 brew install libxrender
 brew install libyaml
 brew install little-cms2
+brew install llvm
 brew install lolcat
 brew install lz4
 brew install lzo
@@ -133,6 +137,7 @@ brew install pixman
 brew install pkg-config
 brew install powerlevel9k
 brew install protobuf
+brew install python@3.10
 brew install python@3.8
 brew install python@3.9
 brew install readline
@@ -148,6 +153,7 @@ brew install smartmontools
 brew install snappy
 brew install speex
 brew install sqlite
+brew install subversion
 brew install tcl-tk
 brew install tesseract
 brew install the_silver_searcher
@@ -155,6 +161,7 @@ brew install theora
 brew install tig
 brew install unbound
 brew install unrar
+brew install utf8proc
 brew install webp
 brew install wget
 brew install wine

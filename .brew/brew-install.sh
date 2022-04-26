@@ -102,6 +102,7 @@ brew install libogg
 brew install libomp
 brew install libpng
 brew install libpthread-stubs
+brew install libraw
 brew install librsvg
 brew install libsamplerate
 brew install libsndfile

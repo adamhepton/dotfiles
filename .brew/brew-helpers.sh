@@ -18,9 +18,6 @@ brew () {
 	if [[ ( "$1" == "install" || "$1" == "uninstall" ) && -n "$2" ]]; then
 		doupdate=true
 	fi
-	if [[ "$1" == "cask" && ( "$2" == "install" || "$2" == "uninstall" ) && -n "$3" ]]; then
-		doupdate=true
-	fi
 	if [[ "$1" == "tap" && -n "$2" ]]; then
 		doupdate=true
 	fi

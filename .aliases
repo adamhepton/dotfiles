@@ -1,6 +1,6 @@
 alias reset='git status -sb | awk -F'\''[/.]'\'' '\''NR==1{print "git reset --hard " $4 "/" $5}'\'' | xargs -I {} sh -c {}'
 alias vim='vim -p'
-alias brewup='brew update && brew upgrade && brew cask upgrade && brew cleanup'
+alias brewup='brew update && brew upgrade && brew cleanup'
 alias cat='lolcat -t'
 alias kitten='command cat'
 alias config="git --git-dir=${HOME}/.cfg/ --work-tree=${HOME}"
@@ -12,4 +12,3 @@ config-push () {
 }
 
 [[ -f "${HOME}/.brew/brew-helpers.sh" ]] && source "${HOME}/.brew/brew-helpers.sh"
-alias babycosmos='python3 ~/Dev/cosmos/cli/cli.py go'

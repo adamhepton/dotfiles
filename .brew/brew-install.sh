@@ -168,6 +168,7 @@ brew install rlwrap
 brew install rtmpdump
 brew install rubberband
 brew install ruby
+brew install scons
 brew install sdl2
 brew install shared-mime-info
 brew install six
@@ -175,7 +176,6 @@ brew install smartmontools
 brew install snappy
 brew install speex
 brew install sqlite
-brew install subversion
 brew install swig
 brew install tcl-tk
 brew install tesseract

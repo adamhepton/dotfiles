@@ -212,7 +212,6 @@ brew install obs
 brew install sonos
 brew install spotify
 brew install steelseries-engine
-brew install streamlabs-obs
 brew install visual-studio-code
 brew install zoom
 

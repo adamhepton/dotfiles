@@ -157,7 +157,6 @@ brew install pcre2
 brew install pixman
 brew install pkg-config
 brew install popt
-brew install powerlevel9k
 brew install protobuf
 brew install python@3.10
 brew install python@3.8
@@ -197,7 +196,6 @@ brew install zsh-completions
 brew install zsh-syntax-highlighting
 brew install zstd
 brew install gimp
-brew install hp-easy-start
 brew install keyboard-cleaner
 brew install obs
 brew install spotify

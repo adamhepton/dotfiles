@@ -16,9 +16,3 @@ echo "echo \"Adding formulae\""
 for FORMULA in $(brew list); do
   echo "brew install $FORMULA"
 done
-
-echo
-echo "echo \"Adding casks\""
-for CASK in $(brew cask list); do
-  echo "brew install --cask $CASK"
-done

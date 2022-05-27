@@ -4,7 +4,7 @@ alias brewup='brew update && brew upgrade && brew cleanup'
 alias cat='lolcat -t'
 alias kitten='command cat'
 alias config="git --git-dir=${HOME}/.cfg/ --work-tree=${HOME}"
-alias idgaf="config commit -m \"$(curl -s http://whatthecommit.com/index.txt)\""
+alias idgaf="config commit -m \"$(curl -s http://whatthecommit.com/index.txt)\" && config-push"
 
 config-push () {
   for REMOTE in $(config remote); do

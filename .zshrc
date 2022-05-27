@@ -8,10 +8,15 @@ fi
 # Path to oh-my-zsh 
 export ZSH=${HOME}/.oh-my-zsh
 zstyle ':omz:update' mode auto
+plugins=(
+    zsh-autosuggestions
+    dirhistory
+    macos
+)
 
 # Homebrew stuff
 path+=('/opt/homebrew/bin/')
-export HOMEBREW_GITHUB_API_TOKEN=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 # Personal token with no scope only
+export HOMEBREW_GITHUB_API_TOKEN=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 # Personal token with no scope only
 
 export SSH_KEY_PATH="~/.ssh/rsa_id"
 

@@ -25,8 +25,4 @@ git clone https://github.com/vim-airline/vim-airline.git "$HOME/.vim/bundle/"
 git clone https://github.com/tpope/vim-fugitive.git "$HOME/.vim/bundle/"
 git clone https://github.com/sheerun/vim-polyglot.git "$HOME/.vim/bundle/"
 
-# Should have zsh as an option within /etc/shells at this point, if not, add it
-zsh
-chsh -s $(which zsh)
-
 echo "Basic install complete."

@@ -200,6 +200,5 @@ brew install gimp
 brew install hp-easy-start
 brew install keyboard-cleaner
 brew install obs
-brew install sonos
 brew install spotify
 brew install visual-studio-code

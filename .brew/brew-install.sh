@@ -1,14 +1,10 @@
 #!/bin/bash
 if [ ! -x /opt/homebrew/bin/brew ]; then
 	echo "installing homebrew"
-  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+        /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 else
 	echo "homebrew is installed"
 fi
-
-echo "Updating app lists"
-brew update
-brew upgrade
 
 echo "Updating app lists"
 brew update
@@ -39,9 +35,9 @@ brew install cairo
 brew install cmake
 brew install coreutils
 brew install curl
-brew install curl-openssl
 brew install docbook
 brew install docbook-xsl
+brew install docker
 brew install flac
 brew install fontconfig
 brew install freetype
@@ -187,11 +183,9 @@ brew install the_silver_searcher
 brew install theora
 brew install tig
 brew install unbound
-brew install unrar
 brew install utf8proc
 brew install webp
 brew install wget
-brew install wine
 brew install x264
 brew install x265
 brew install xmlto
@@ -202,19 +196,11 @@ brew install zsh
 brew install zsh-completions
 brew install zsh-syntax-highlighting
 brew install zstd
-brew install docker
-brew install font-fantasquesansmono-nerd-font
-brew install font-firacode-nerd-font
-brew install font-iosevka-nerd-font-mono
 brew install gimp
-brew install handbrake
 brew install hp-easy-start
-brew install iterm2-nightly
-brew install java
 brew install keyboard-cleaner
 brew install obs
 brew install sonos
 brew install spotify
 brew install steelseries-engine
 brew install visual-studio-code
-brew install zoom

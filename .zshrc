@@ -5,11 +5,13 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
-# Path to your oh-my-zsh installation.
+# Path to oh-my-zsh 
 export ZSH=${HOME}/.oh-my-zsh
-export HOMEBREW_GITHUB_API_TOKEN=201c6519d43d27ffa47aaa037d3b94f0e74d986e # Personal token with no scope only
+zstyle ':omz:update' mode auto
 
+# Homebrew stuff
 path+=('/opt/homebrew/bin/')
+export HOMEBREW_GITHUB_API_TOKEN=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 # Personal token with no scope only
 
 export SSH_KEY_PATH="~/.ssh/rsa_id"
 
@@ -18,6 +20,8 @@ export SSH_KEY_PATH="~/.ssh/rsa_id"
 [[ -f "${HOME}/.aliases" ]] && source "${HOME}/.aliases"
 [[ -f "${HOME}/.iterm2_shell_integration.zsh" ]] && source "${HOME}/.iterm2_shell_integration.zsh"
 fpath=(/usr/local/share/zsh-completions $fpath)
+autoload -Uz compinit && compinit
+
 source /opt/homebrew/opt/powerlevel10k/powerlevel10k.zsh-theme
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.

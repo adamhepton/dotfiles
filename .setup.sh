@@ -1,5 +1,5 @@
 #!/bin/bash
-DOTFILESREPO='git@bitbucket.org:pr0x/dotfiles.git'
+DOTFILESREPO='git@github.com:adamhepton/dotfiles.git'
 git clone --bare "$DOTFILESREPO" "$HOME/.cfg"
 
 function config {

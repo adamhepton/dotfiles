@@ -2,6 +2,8 @@
 export ZSH=${HOME}/.oh-my-zsh
 export HOMEBREW_GITHUB_API_TOKEN=201c6519d43d27ffa47aaa037d3b94f0e74d986e # Personal token with no scope only
 
+path+=('/opt/homebrew/bin/')
+
 ZSH_THEME="powerlevel9k/powerlevel9k"
 POWERLEVEL9K_MODE='nerdfont-complete'
 

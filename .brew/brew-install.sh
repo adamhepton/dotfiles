@@ -197,7 +197,6 @@ brew install zsh
 brew install zsh-completions
 brew install zsh-syntax-highlighting
 brew install zstd
-brew install brave-browser
 brew install font-fantasque-sans-mono-nerd-font
 brew install gimp
 brew install keyboard-cleaner

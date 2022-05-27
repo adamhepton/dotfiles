@@ -20,6 +20,7 @@ brew tap homebrew/cask-versions
 brew tap homebrew/core
 brew tap homebrew/services
 brew tap martido/graph
+brew tap romkatv/powerlevel10k
 brew tap sambadevi/powerlevel9k
 
 echo "Adding formulae"
@@ -157,6 +158,7 @@ brew install pcre2
 brew install pixman
 brew install pkg-config
 brew install popt
+brew install powerlevel10k
 brew install protobuf
 brew install python@3.10
 brew install python@3.8

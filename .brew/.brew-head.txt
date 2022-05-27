@@ -5,6 +5,8 @@ else
 	echo "homebrew is installed"
 fi
 
+path+=('/opt/homebrew/bin/')
+
 echo "Updating app lists"
 brew update
 brew upgrade

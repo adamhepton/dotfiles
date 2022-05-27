@@ -17,7 +17,7 @@ config checkout
 config config status.showUntrackedFiles no
 
 source "$HOME/.brew/brew-helpers.sh"
-"$HOME/.brew/brew-install.sh"
+zsh "$HOME/.brew/brew-install.sh"
 
 git clone https://github.com/robbyrussell/oh-my-zsh "$HOME/.oh-my-zsh"
 git clone https://github.com/vim-syntastic/syntastic.git "$HOME/.vim/bundle/"

@@ -202,5 +202,4 @@ brew install keyboard-cleaner
 brew install obs
 brew install sonos
 brew install spotify
-brew install steelseries-engine
 brew install visual-studio-code

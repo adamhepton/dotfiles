@@ -20,5 +20,5 @@ done
 echo
 echo "echo \"Adding casks\""
 for CASK in $(brew cask list); do
-  echo "brew cask install $CASK"
+  echo "brew install --cask $CASK"
 done

@@ -6,6 +6,8 @@ else
 	echo "homebrew is installed"
 fi
 
+path+=('/opt/homebrew/bin/')
+
 echo "Updating app lists"
 brew update
 brew upgrade
@@ -141,7 +143,6 @@ brew install ncurses
 brew install netpbm
 brew install nettle
 brew install nghttp2
-brew install node
 brew install oniguruma
 brew install opencore-amr
 brew install openexr

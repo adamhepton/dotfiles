@@ -47,6 +47,7 @@ brew install flac
 brew install fontconfig
 brew install freetype
 brew install fribidi
+brew install gawk
 brew install gd
 brew install gdbm
 brew install gdk-pixbuf
@@ -57,6 +58,7 @@ brew install git
 brew install glib
 brew install gmp
 brew install gnu-getopt
+brew install gnupg
 brew install gnutls
 brew install gobject-introspection
 brew install gphoto2
@@ -86,6 +88,7 @@ brew install lame
 brew install leptonica
 brew install libarchive
 brew install libass
+brew install libassuan
 brew install libavif
 brew install libb2
 brew install libbluray
@@ -96,10 +99,13 @@ brew install libevent
 brew install libexif
 brew install libffi
 brew install libfido2
+brew install libgcrypt
+brew install libgpg-error
 brew install libgphoto2
 brew install libheif
 brew install libidn
 brew install libidn2
+brew install libksba
 brew install liblqr
 brew install libmetalink
 brew install libnghttp2
@@ -140,11 +146,13 @@ brew install m4
 brew install molten-vk
 brew install mozjpeg
 brew install mpdecimal
+brew install mpfr
 brew install mysql
 brew install ncurses
 brew install netpbm
 brew install nettle
 brew install nghttp2
+brew install npth
 brew install oniguruma
 brew install opencore-amr
 brew install openexr
@@ -158,6 +166,7 @@ brew install p11-kit
 brew install pango
 brew install pcre
 brew install pcre2
+brew install pinentry
 brew install pixman
 brew install pkg-config
 brew install popt

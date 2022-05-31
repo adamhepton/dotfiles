@@ -29,7 +29,9 @@ echo "Adding formulae"
 brew install aom
 brew install apr
 brew install apr-util
+brew install asdf
 brew install autoconf
+brew install automake
 brew install bdw-gc
 brew install brotli
 brew install c-ares
@@ -185,6 +187,7 @@ brew install the_silver_searcher
 brew install theora
 brew install tig
 brew install unbound
+brew install unixodbc
 brew install utf8proc
 brew install webp
 brew install wget

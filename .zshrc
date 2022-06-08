@@ -12,17 +12,18 @@ plugins=(
     zsh-autosuggestions
     dirhistory
     macos
+    asdf
 )
 
 # Homebrew stuff
 path+=('/opt/homebrew/bin/')
-export HOMEBREW_GITHUB_API_TOKEN=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 # Personal token with no scope only
 
 export SSH_KEY_PATH="~/.ssh/rsa_id"
 
 [[ -f "/usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" ]] && source "/usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
 [[ -f "${ZSH}/oh-my-zsh.sh" ]] && source "${ZSH}/oh-my-zsh.sh"
 [[ -f "${HOME}/.aliases" ]] && source "${HOME}/.aliases"
+[[ -f "${HOME}/.private" ]] && source "${HOME}/.private"
 [[ -f "${HOME}/.iterm2_shell_integration.zsh" ]] && source "${HOME}/.iterm2_shell_integration.zsh"
 fpath=(/usr/local/share/zsh-completions $fpath)
 autoload -Uz compinit && compinit

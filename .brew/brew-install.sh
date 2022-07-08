@@ -167,6 +167,7 @@ brew install pango
 brew install pcre
 brew install pcre2
 brew install pinentry
+brew install pinentry-mac
 brew install pixman
 brew install pkg-config
 brew install popt
@@ -217,3 +218,4 @@ brew install keyboard-cleaner
 brew install obs
 brew install spotify
 brew install visual-studio-code
+brew install vlc

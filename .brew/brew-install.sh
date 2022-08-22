@@ -81,6 +81,7 @@ brew install jasper
 brew install jbig2dec
 brew install jemalloc
 brew install jpeg
+brew install jpeg-turbo
 brew install jpeg-xl
 brew install jq
 brew install krb5
@@ -207,6 +208,7 @@ brew install xmlto
 brew install xorgproto
 brew install xvid
 brew install xz
+brew install zlib
 brew install zsh
 brew install zsh-completions
 brew install zsh-syntax-highlighting

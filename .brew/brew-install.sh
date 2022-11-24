@@ -72,6 +72,7 @@ brew install gts
 brew install guile
 brew install handbrake
 brew install harfbuzz
+brew install highway
 brew install icu4c
 brew install ilmbase
 brew install imagemagick
@@ -175,6 +176,7 @@ brew install popt
 brew install powerlevel10k
 brew install protobuf
 brew install python@3.10
+brew install python@3.11
 brew install python@3.8
 brew install python@3.9
 brew install readline
@@ -208,6 +210,7 @@ brew install xmlto
 brew install xorgproto
 brew install xvid
 brew install xz
+brew install z3
 brew install zlib
 brew install zsh
 brew install zsh-completions
@@ -218,6 +221,7 @@ brew install font-fantasque-sans-mono-nerd-font
 brew install gimp
 brew install keyboard-cleaner
 brew install obs
+brew install sound-control
 brew install spotify
 brew install visual-studio-code
 brew install vlc

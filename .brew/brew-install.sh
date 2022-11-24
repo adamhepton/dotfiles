@@ -221,7 +221,6 @@ brew install font-fantasque-sans-mono-nerd-font
 brew install gimp
 brew install keyboard-cleaner
 brew install obs
-brew install sound-control
 brew install spotify
 brew install visual-studio-code
 brew install vlc

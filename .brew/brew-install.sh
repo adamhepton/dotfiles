@@ -220,6 +220,7 @@ brew install barrier
 brew install font-fantasque-sans-mono-nerd-font
 brew install gimp
 brew install keyboard-cleaner
+brew install logitech-camera-settings
 brew install obs
 brew install spotify
 brew install visual-studio-code
